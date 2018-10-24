@@ -1,0 +1,38 @@
+注意事项：
+	1.请勿修改其他组员文件，如需修改请联系其他组员。
+	2.找到对象的struts，xml文件修改自己功能所返回的连接，
+
+个人意见管理：
+	添加个人意见：suggestionAction_add
+	修改个人意见：suggestionAction_update
+	删除个人意见：suggestionAction_delete
+	查询个人意见：suggestionAction_query
+班级管理：
+	添加班级：classAction_add
+	修改班级：classAction_update
+	删除班级：classAction_delete
+	查询班级：classAction_query
+部门管理：
+	添加部门：departmentAction_add
+	修改部门：departmentAction_update
+	删除部门：departmentAction_delete
+	查询部门：departmentAction_query
+反馈批次管理:
+	开启反馈批次：feedBackAction_open
+	结束反馈批次：feedBackAction_end
+反馈指标管理 ：
+	添加反馈指标：feedbackItemAction_add
+	修改反馈指标：feedbackItemAction_update
+	删除反馈指标：feedbackItemAction_delete
+	查询反馈指标：feedbackItemAction_query
+反馈类别管理：
+	添加反馈类别：FeedbackItemTypeAction_add
+	修改反馈类别：FeedbackItemTypeAction_update
+	删除反馈类别：FeedbackItemTypeAction_delete
+	查询反馈类别：FeedbackItemTypeAction_query
+反馈评分管理：
+	添加反馈评分：FeedbackScoreAction_add
+	修改反馈评分：FeedbackScoreAction_update
+	删除反馈评分：FeedbackScoreAction_delete
+	查询反馈评分：FeedbackScoreAction_query
+	

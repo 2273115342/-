@@ -1,0 +1,59 @@
+*{
+	padding:0px;
+	margin: 0px;
+}
+.main{
+	position: relative;
+	background-color: #F3F3F3;
+}
+.rightPage{
+	position: absolute;
+	top: 0px;
+    left: 250px;
+}
+.iframeName{
+	border: 6px solid #EBEBEB;
+	width:98%;
+	height:40px;
+	z-index:10;
+	color: #0A9CCC;;
+	background-color: white;
+	line-height: 40px;
+}
+.sonPageName{
+	display: inline-block;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	width: 80%;
+	text-align: center;
+}
+.iframeName div{
+	display: inline-block;
+	padding-left:10px;
+	border-right: solid #EBEBEB 5px;
+	border-left: solid #EBEBEB 5px;
+	position: relative;
+}
+.pageInp:hover{
+	cursor:pointer;
+}
+.delete{
+	position: absolute;
+	right: 5px;
+	top: 0px;
+}
+.delete:hover{
+	color:red;
+}
+/*右侧小菜单名称选中和未选中的样式*/
+.pitchOnIframeName{
+	background-color:#CAE1FF;
+}
+.notSelectedIframeName{
+	background-color:white;
+}
+.closeAll:hover{
+	background-color: #ccc;
+	cursor:pointer;
+}
